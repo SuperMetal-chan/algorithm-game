@@ -547,7 +547,7 @@ se.gameReady = function () {
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), bt_next_tutorial, bt_close_tutorial,	bt_prior_tutorial,
 		new Text('Для цього скористайтеся кнопками ', 250, 260, '#000', 24),
-		new Text('de movimento.', 320, 290, '#000', 24),
+		new Text('руху.', 320, 290, '#000', 24),
 		new Sprite("button_left", 90, 530, 60, 60),
 		new Sprite("button_forward", 20, 530, 60, 60),
 		new Sprite("button_right", 160, 530, 60, 60)

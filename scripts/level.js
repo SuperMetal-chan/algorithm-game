@@ -353,24 +353,19 @@ Level.prototype.clearHightlight = function(){
 
 
 Level.prototype.createGUIButton = function() {
-	
-  //barra comandos inferior
+
   new Rect(0, canvas.height - 100, 100, 660, 'rgba(255, 255, 255, 0.5)');
 
-  //barra menu superior
   new Rect(0, 0, 110, canvas.width, '#30415d');
   
 
-//bara azul comandos
   new Rect(0, canvas.height - 100  - 30, 40, 200, '#30415d');
-  new Text('Comandos', 20, canvas.height - 105  , '#fff');
+  new Text('Команди', 20, canvas.height - 105  , '#fff');
 
-	//paine comandos
 new Rect(canvas.width - 300, 150, 580, 1180, 'rgba(255, 255, 255, 0.5)');
 
-//barra azul principal
   new Rect(canvas.width - 260, 120, 40, 200, '#30415d');
-  new Text('Principal', canvas.width - 240, 145, '#fff');
+  new Text('Кількість блоків', canvas.width - 240, 145, '#fff');
   
   
 
@@ -392,7 +387,6 @@ new Rect(canvas.width - 300, 150, 580, 1180, 'rgba(255, 255, 255, 0.5)');
     70
   );
 
-  //FIXOS DE TODOS OS LEVEL
   new Button(
     'button_stop',
      canvas.width - 220,
@@ -421,7 +415,6 @@ new Rect(canvas.width - 300, 150, 580, 1180, 'rgba(255, 255, 255, 0.5)');
 	  levels[currentLevel].printCommands();
 	  clearHightlight();
 	  log.reloadLevel();
-	  //log.addAction("reload");
 	  
 	  
     },
@@ -443,7 +436,6 @@ new Rect(canvas.width - 300, 150, 580, 1180, 'rgba(255, 255, 255, 0.5)');
     110,
     20,
     function () {
-      //menu
       se.mlevel.loadScene(2);
 	  log.addAction("menu");
     },
@@ -463,7 +455,6 @@ Level.prototype.setLevel = function (arrmap, _this) {
 
   var commands = _this.commands;
 
-  //map
   _this.map = new Map(arrmap, _this.map_margintop, this.map_marginleft);
 
   if (_this.itemname != undefined) {
