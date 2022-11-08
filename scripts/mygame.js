@@ -532,7 +532,7 @@ se.gameReady = function () {
 	tutorial_1.push([
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial, 	
-		new Text('Привіт, мене звуть Кодебо!', 280, 260, '#000', 25),
+		new Text('Привіт, мене звуть Кодебо!', 230, 260, '#000', 25),
 		new Text('Вирушимо разом у цю пригоду?', 230, 300, '#000', 20)
 	]);
 	
@@ -546,8 +546,8 @@ se.gameReady = function () {
 	tutorial_1.push([
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), bt_next_tutorial, bt_close_tutorial,	bt_prior_tutorial,
-		new Text('Для цього скористайтеся кнопками ', 250, 260, '#000', 24),
-		new Text('руху.', 320, 290, '#000', 24),
+		new Text('Для цього скористайтеся командами ', 230, 260, '#000', 24),
+		new Text('руху.', 230, 290, '#000', 24),
 		new Sprite("button_left", 90, 530, 60, 60),
 		new Sprite("button_forward", 20, 530, 60, 60),
 		new Sprite("button_right", 160, 530, 60, 60)
@@ -556,8 +556,8 @@ se.gameReady = function () {
 	tutorial_1.push([
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial,bt_prior_tutorial,	
-		new Text('Скористайтеся кнопкою "Грати" ', 230, 260, '#000', 24),
-		new Text('щоб запустити рівень.', 300, 290, '#000', 24),
+		new Text('Скористайтеся кнопкою "Грати", ', 230, 260, '#000', 24),
+		new Text('щоб запустити сцену.', 230, 290, '#000', 24),
 		new Sprite("button_play",  canvas.width - 300, 20, 70, 70)
 	]);
 	
@@ -602,8 +602,8 @@ se.gameReady = function () {
 	tutorial_3.push([
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial, bt_prior_tutorial,	
-		new Text('Antes disto, você deve', 280, 260, '#000', 25),
-		new Text('criar uma pilha!', 320, 300, '#000', 25),
+		new Text('Перед цим необхідно', 230, 260, '#000', 25),
+		new Text('створити стек!', 230, 300, '#000', 25),
 		new Sprite("button_stack_new", 230, 530, 60, 60)
 	]);
 	
@@ -611,8 +611,8 @@ se.gameReady = function () {
 	tutorial_3.push([
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial, bt_prior_tutorial,	
-		new Text('Pilha são criadas sempre a frente,', 215, 260, '#000', 25),
-		new Text('na direção do Codebo...', 270, 300, '#000', 25)
+		new Text('Стеки завжди створюються вперед,', 230, 260, '#000', 25),
+		new Text('у напрямку Кодебo...', 230, 300, '#000', 25)
 	]);
 	
 	anim2 = new Animation(["tutorial_criapilha01", "tutorial_criapilha02"], 20);
@@ -626,8 +626,8 @@ se.gameReady = function () {
 	tutorial_3.push([
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial, bt_prior_tutorial,	
-		new Text('Para entrar na pilha, use', 280, 260, '#000', 25),
-		new Text('o comando empilhar robô.', 265, 300, '#000', 25),
+		new Text('Щоб забратись на стек, скористайтесь', 230, 260, '#000', 25),
+		new Text('командою "ЗАБРАТИСЬ"', 230, 300, '#000', 25),
 		new Sprite("button_stack_character_push", 440, 530, 60, 60)
 	]);
 	
@@ -635,8 +635,8 @@ se.gameReady = function () {
 	tutorial_3.push([
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial, bt_prior_tutorial,	
-		new Text('Para desempilhar o codebô', 260, 260, '#000', 25),
-		new Text('use o comando desempilhar.', 250, 300, '#000', 25),
+		new Text('Щоб спустити Кодебо', 230, 260, '#000', 25),
+		new Text('скористайтеся командою "ЗІЙТИ"', 230, 300, '#000', 25),
 		new Sprite("button_stack_pop", 370, 530, 60, 60)
 	]);
 	

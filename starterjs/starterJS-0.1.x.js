@@ -3549,28 +3549,24 @@ function Turtle() {
 
     //this.direction = 0;
     /**
-     * Controla se o Turtle risca no chão
      * @type {boolean}
      */
     this.pendown = true;
 
     this.penolddown = true;
     /**
-     * Pilha de movimentos e comandos
      * @type {Array}
      */
     this.stakemoviment = [];
 
 
     /**
-     * Pilha das linhas e comando anteriores
      * @type {Array}
      */
     this.stakealdlines = [];
 
 
     /**
-     * Armazena a quantidade de passo do movimento atual
      * @type {number}
      */
     this.stepcurrent = 0;
