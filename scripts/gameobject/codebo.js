@@ -458,7 +458,7 @@ Codebo.prototype.runCommands = function (exec) {
         );
 
 	}else{
-		levels[currentLevel].consoleError("Неможлива залізти на стек!", this.actualaction);
+		levels[currentLevel].consoleError("Неможливо залізти!", this.actualaction);
 		//interrompe execução
 		this.pause();
 		
