@@ -586,7 +586,7 @@ Level.prototype.setEnd = function () {
 
   bt_next.setZ(201);
 
-  var sp_txt = new Sprite('gui_congrats', 490, 160);
+  var sp_txt = new Sprite('gui_congrats', 500, 160);
   sp_txt.setZ(201);
 
   //colocar pontos no bd
