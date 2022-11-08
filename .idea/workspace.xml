@@ -6,32 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="85007db3-23d8-4840-8ad3-4564200b1a97" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_list_block_add.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_list_block_add.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_list_block_add_mini.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_list_block_add_mini.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_list_block_remove.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_list_block_remove.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_list_block_remove_mini.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_list_block_remove_mini.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_list_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_list_new.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_list_new_mini.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_list_new_mini.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_set_item.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_set_item.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_set_item_mini.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_set_item_mini.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_stack_block_pop.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_stack_block_pop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_stack_block_pop_mini.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_stack_block_pop_mini.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_stack_block_push.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_stack_block_push.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_stack_block_push_mini.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_stack_block_push_mini.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_stack_character_pop.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_stack_character_pop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_stack_character_pop_mini.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_stack_character_pop_mini.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_stack_character_push.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_stack_character_push.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_stack_character_push_mini.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_stack_character_push_mini.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_stack_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_stack_new.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_stack_new_mini.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_stack_new_mini.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_stack_pop.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_stack_pop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/button_stack_pop_mini.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/button_stack_pop_mini.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/gui_block_play_menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/gui_block_play_menu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/gui_bt_ajuda.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/gui_bt_ajuda.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/gui_bt_config.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/gui_bt_config.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buttons/gui_bt_play_menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/buttons/gui_bt_play_menu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/gameobject/block.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/gameobject/block.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/gameobject/codebo.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/gameobject/codebo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +35,7 @@
     <option name="height" value="735" />
   </component>
   <component name="ProjectId" id="2HG67e0XCOsMk2Q5uSaz9TlWseu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -137,6 +113,7 @@
       <workItem from="1642632235019" duration="594000" />
       <workItem from="1667898939456" duration="2766000" />
       <workItem from="1667906880141" duration="1873000" />
+      <workItem from="1667925195595" duration="155000" />
     </task>
     <servers />
   </component>
