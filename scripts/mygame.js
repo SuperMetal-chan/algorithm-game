@@ -701,7 +701,7 @@ se.gameReady = function () {
 	tutorial_9.push([
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial, bt_prior_tutorial,
-		new Text('Ви можете використати його', 280, 255, '#000', 25),
+		new Text('Ви можете використати його', 280, 255, '#000', 20),
 		new Text('за допомогою команди "ДОДАТИ', 230, 285, '#000', 20),
         new Text('ЕЛЕМЕНТ ДО СЦЕНИ"', 230, 315, '#000', 20),
 		new Sprite("button_set_item", 510, 530, 60, 60)
