@@ -1,6 +1,6 @@
 Oi eu sou o Codebo
 
-Precisamos chegar até a bandeira. Para isso, 
+Нам потрібно дістатися bandeira. Para isso,
 use os botões de movimento e aperte o Play. 
 
 O Play pode ser acionado sempre, mas cuidado

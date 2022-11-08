@@ -532,21 +532,21 @@ se.gameReady = function () {
 	tutorial_1.push([
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial, 	
-		new Text('Olá, eu sou o codeBô!', 280, 260, '#000', 25),
-		new Text('Vamos seguir juntos, nesta aventura?', 230, 300, '#000', 20)
+		new Text('Привіт, мене звуть Кодебо!', 280, 260, '#000', 25),
+		new Text('Вирушимо разом у цю пригоду?', 230, 300, '#000', 20)
 	]);
 	
 	tutorial_1.push([
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial,bt_prior_tutorial,	
-		new Text('Precisamos chegar até a ', 230, 280, '#000', 24),
+		new Text('Нам потрібно дістатися ', 230, 280, '#000', 24),
 		new Sprite("red_flag", 510, 240, 40, 60)
 	]);
   
 	tutorial_1.push([
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), bt_next_tutorial, bt_close_tutorial,	bt_prior_tutorial,
-		new Text('Para isso, use os botões ', 250, 260, '#000', 24),
+		new Text('Для цього скористайтеся кнопками ', 250, 260, '#000', 24),
 		new Text('de movimento.', 320, 290, '#000', 24),
 		new Sprite("button_left", 90, 530, 60, 60),
 		new Sprite("button_forward", 20, 530, 60, 60),
@@ -556,8 +556,8 @@ se.gameReady = function () {
 	tutorial_1.push([
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial,bt_prior_tutorial,	
-		new Text('Use o botão play para executar ', 230, 260, '#000', 24),
-		new Text('a sua sequência.', 300, 290, '#000', 24),
+		new Text('Скористайтеся кнопкою "Грати" ', 230, 260, '#000', 24),
+		new Text('щоб запустити рівень.', 300, 290, '#000', 24),
 		new Sprite("button_play",  canvas.width - 300, 20, 70, 70)
 	]);
 	
@@ -571,8 +571,8 @@ se.gameReady = function () {
   
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial, 	
-		new Text('Opa! Não consigo andar', 265, 260, '#000', 25),
-		new Text('por níveis diferentes.', 280, 300, '#000', 25)
+		new Text('Ой! Я не можу ходити ', 265, 260, '#000', 25),
+		new Text('по різних рівнях.', 280, 300, '#000', 25)
 	
 	]);
 	
@@ -586,9 +586,9 @@ se.gameReady = function () {
 	tutorial_3.push([
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial, 
-		new Text('Você tem um limite de ', 260, 250, '#000', 25),
-		new Text(' 4 comandos!', 315, 290, '#000', 25),
-		new Text('Que tal cortar caminhos?', 260, 330, '#000', 25)
+		new Text('Ви обмежені ', 260, 250, '#000', 25),
+		new Text('4 командами!', 315, 290, '#000', 25),
+		new Text('Бажаєте прокласти шлях?', 260, 330, '#000', 25)
 	]);
 	
 	tutorial_3.push([
