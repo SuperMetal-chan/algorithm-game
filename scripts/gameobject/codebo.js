@@ -320,7 +320,7 @@ Codebo.prototype.runCommands = function (exec) {
 	
 
     }else{	
-		levels[currentLevel].consoleWarning("Робот знаходиться на стовпчику!", this.actualaction);
+		levels[currentLevel].consoleWarning("Робот знаходиться на стеку!", this.actualaction);
 	}
   
   //LEFT  
@@ -397,7 +397,7 @@ Codebo.prototype.runCommands = function (exec) {
 	  );
     
 	}else{
-		levels[currentLevel].consoleWarning("Стовпчик не створено!", this.actualaction);
+		levels[currentLevel].consoleWarning("стек не створено!", this.actualaction);
 	}
 
     levels[currentLevel].getMap().create();
@@ -458,7 +458,7 @@ Codebo.prototype.runCommands = function (exec) {
         );
 
 	}else{
-		levels[currentLevel].consoleError("Неможлива поставити на стовпчик!", this.actualaction);
+		levels[currentLevel].consoleError("Неможлива залізти на стек!", this.actualaction);
 		//interrompe execução
 		this.pause();
 		
@@ -572,7 +572,7 @@ Codebo.prototype.runCommands = function (exec) {
 		.adjustmentLevels(this.getLevel(), this.actualx, this.actualy);
 		
 	}else{
-		levels[currentLevel].consoleError("Неможлива поставити на стовпчик.", this.actualaction);
+		levels[currentLevel].consoleError("Неможлива залізти на стек.", this.actualaction);
 		this.pause();
 	}
 	
@@ -600,12 +600,12 @@ Codebo.prototype.runCommands = function (exec) {
 				this.actualy += 1;
 			}else{
 				
-				levels[currentLevel].consoleError("Робот не може покинути стовпчик!", this.actualaction);
+				levels[currentLevel].consoleError("Робот не може покинути стек!", this.actualaction);
 				this.pause();
 			}
 			
 		}else{
-			levels[currentLevel].consoleError("Робот не може покинути стовпчик!", this.actualaction);
+			levels[currentLevel].consoleError("Робот не може покинути стек!", this.actualaction);
 		    this.pause();
 		}
 
@@ -624,13 +624,13 @@ Codebo.prototype.runCommands = function (exec) {
 			  this.actualy -= 1;
 			}else{
 				
-				levels[currentLevel].consoleError("Робот не може покинути стовпчик!", this.actualaction);
+				levels[currentLevel].consoleError("Робот не може покинути стек!", this.actualaction);
 				this.pause();
 			}
 			
 			
 		}else{
-			levels[currentLevel].consoleError("Робот не може покинути стовпчик!", this.actualaction);
+			levels[currentLevel].consoleError("Робот не може покинути стек!", this.actualaction);
 		    this.pause();
 		}
 	
@@ -651,12 +651,12 @@ Codebo.prototype.runCommands = function (exec) {
 			  this.actualx -= 1;
 			}else{
 				
-				levels[currentLevel].consoleError("Робот не може покинути стовпчик!", this.actualaction);
+				levels[currentLevel].consoleError("Робот не може покинути стек!", this.actualaction);
 				this.pause();
 			}
 			
 		}else{
-			levels[currentLevel].consoleError("Робот не може покинути стовпчик!", this.actualaction);
+			levels[currentLevel].consoleError("Робот не може покинути стек!", this.actualaction);
 		    this.pause();
 		}
 		
@@ -676,12 +676,12 @@ Codebo.prototype.runCommands = function (exec) {
 			  this.actualx += 1;
 			} else{
 				
-				levels[currentLevel].consoleError("Робот не може покинути стовпчик!", this.actualaction);
+				levels[currentLevel].consoleError("Робот не може покинути стек!", this.actualaction);
 				this.pause();
 			}
 			
 		}else{
-			levels[currentLevel].consoleError("Робот не може покинути стовпчик!", this.actualaction);
+			levels[currentLevel].consoleError("Робот не може покинути стек!", this.actualaction);
 		    this.pause();
 		}
 	  
@@ -746,7 +746,7 @@ Codebo.prototype.runCommands = function (exec) {
           );
       
 	  }else{
-		   levels[currentLevel].consoleError("Помилка видалення стовпчика!", this.actualaction);
+		   levels[currentLevel].consoleError("Помилка видалення стека!", this.actualaction);
 		   this.pause();
 	  }
 
