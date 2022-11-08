@@ -659,7 +659,7 @@ se.gameReady = function () {
 	tutorial_6.push([
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial, 
-		new Text('Гаразд, мабуть, ми повинні', 260, 255, '#000', 24),
+		new Text('Гаразд, мабуть, ми повинні', 230, 255, '#000', 24),
 		new Text('використати команду', 240, 285, '#000', 24),
         new Text('"ПРИБРАТИ ЗВЕРХУ"', 240, 315, '#000', 24),
 		new Sprite("button_stack_pop", 300, 530, 60, 60)
