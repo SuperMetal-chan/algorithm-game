@@ -627,17 +627,18 @@ se.gameReady = function () {
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
 		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial, bt_prior_tutorial,	
 		new Text('Щоб забратись на стек, ', 230, 255, '#000', 25),
-		new Text('скористайтесь командою ', 230, 270, '#000', 25),
-        new Text('"ЗАБРАТИСЬ"', 230, 285, '#000', 25),
+		new Text('скористайтесь командою ', 230, 290, '#000', 25),
+        new Text('"ПОКЛАСТИ КОДЕБО"', 230, 315, '#000', 25),
 		new Sprite("button_stack_character_push", 440, 530, 60, 60)
 	]);
 	
 	
 	tutorial_3.push([
 		new Rect(0,0, canvas.height, canvas.width, 'rgba(0, 0, 3, 0.5)'),
-		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial, bt_prior_tutorial,	
-		new Text('Щоб спустити Кодебо', 230, 260, '#000', 25),
-		new Text('скористайтеся командою "ЗІЙТИ"', 230, 300, '#000', 25),
+		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial, bt_prior_tutorial,
+        new Text('Щоб спустити Кодебо', 230, 255, '#000', 25),
+        new Text('скористайтеся командою', 230, 290, '#000', 25),
+        new Text('"ПРИБРАТИ ЗВЕРХУ"', 230, 315, '#000', 25),
 		new Sprite("button_stack_pop", 370, 530, 60, 60)
 	]);
 	
