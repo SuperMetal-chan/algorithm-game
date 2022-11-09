@@ -103,12 +103,7 @@ se.setResources = function () {
   this.loader.addResource('button_right', 'buttons/button_right.png', 'image');
 
   //list buttons
-  this.loader.addResource(
-    'button_list_new',
-    'buttons/button_list_new.png',
-    'image'
-  );
-  this.loader.addResource(
+    this.loader.addResource(
     'button_list_block_add',
     'buttons/button_list_block_add.png',
     'image'
@@ -167,22 +162,6 @@ se.setResources = function () {
 
   this.loader.addResource('mini_blank', 'buttons/button_mini.png', 'image');
 
-  //list mini buttons
-  this.loader.addResource(
-    'button_list_new_mini',
-    'buttons/button_list_new_mini.png',
-    'image'
-  );
-  this.loader.addResource(
-    'button_list_block_add_mini',
-    'buttons/button_list_block_add_mini.png',
-    'image'
-  );
-  this.loader.addResource(
-    'button_list_block_remove_mini',
-    'buttons/button_list_block_remove_mini.png',
-    'image'
-  );
 
   //stack mini buttons
   this.loader.addResource(

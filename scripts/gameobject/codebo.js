@@ -572,7 +572,7 @@ Codebo.prototype.runCommands = function (exec) {
 		.adjustmentLevels(this.getLevel(), this.actualx, this.actualy);
 		
 	}else{
-		levels[currentLevel].consoleError("Неможлива залізти на стек.", this.actualaction);
+		levels[currentLevel].consoleError("Неможливо залізти на стек.", this.actualaction);
 		this.pause();
 	}
 	
