@@ -672,7 +672,7 @@ se.gameReady = function () {
 		new Text('ще 1 блок', 230, 295, '#000', 24),
         new Text('для складання.', 230, 295, '#000', 24),
 		new Rect(canvas.width - 260, 120, 40, 200, '#30415d'),
-		new Text('Блоки', canvas.width - 240, 145, '#fff'),
+		new Text('Блоки1', canvas.width - 240, 145, '#fff'),
 		new Sprite("gui_block", canvas.width - 130, 125, 25,25),
 		new Text("x0", canvas.width - 100, 147, "white", 25)
 
