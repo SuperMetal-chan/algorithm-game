@@ -365,7 +365,7 @@ Level.prototype.createGUIButton = function() {
 new Rect(canvas.width - 300, 150, 580, 1180, 'rgba(255, 255, 255, 0.5)');
 
   new Rect(canvas.width - 260, 120, 40, 200, '#30415d');
-  new Text('Блоки2', canvas.width - 240, 145, '#fff');
+  new Text('Блоки', canvas.width - 240, 145, '#fff');
   
   
 
@@ -666,7 +666,7 @@ Level.prototype.createConsole= function (){
 
 
 Level.prototype.createContainerItem = function(item) {
-	new Text("Предмет", canvas.width/2 - 10, "white", 15);
+	new Text("Предмет", canvas.width/2 - 30, 25, "white", 17);
 	new Sprite("container_item", canvas.width/2 - 25, 30, 50, 50 );
 }
 
