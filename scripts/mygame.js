@@ -102,18 +102,6 @@ se.setResources = function () {
   this.loader.addResource('button_left', 'buttons/button_left.png', 'image');
   this.loader.addResource('button_right', 'buttons/button_right.png', 'image');
 
-  //list buttons
-    this.loader.addResource(
-    'button_list_block_add',
-    'buttons/button_list_block_add.png',
-    'image'
-  );
-  this.loader.addResource(
-    'button_list_block_remove',
-    'buttons/button_list_block_remove.png',
-    'image'
-  );
-
   //stack buttons
   this.loader.addResource(
     'button_stack_new',
