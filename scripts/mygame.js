@@ -670,7 +670,7 @@ se.gameReady = function () {
 		new Sprite("balon_msg", 200,200), 	bt_next_tutorial, bt_close_tutorial, bt_prior_tutorial,
 		new Text('Розбираючи блок, ви отримуєте', 230, 260, '#000', 24),
 		new Text('ще 1 блок', 230, 295, '#000', 24),
-        new Text('для складання.', 230, 295, '#000', 24),
+        new Text('для складання.', 230, 315, '#000', 24),
 		new Rect(canvas.width - 260, 120, 40, 200, '#30415d'),
 		new Text('Блоки2', canvas.width - 240, 145, '#fff'),
 		new Sprite("gui_block", canvas.width - 130, 125, 25,25),
