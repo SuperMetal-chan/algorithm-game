@@ -666,7 +666,7 @@ Level.prototype.createConsole= function (){
 
 
 Level.prototype.createContainerItem = function(item) {
-	new Text("Предмет", canvas.width/2 - 30, 25, "white", 17);
+	new Text("Предмет", canvas.width/2 - 33, 23, "white", 17);
 	new Sprite("container_item", canvas.width/2 - 25, 30, 50, 50 );
 }
 
