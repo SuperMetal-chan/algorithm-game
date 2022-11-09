@@ -2559,9 +2559,6 @@ ManagerLoader.prototype.print = function(porcent){
     ctx.fillStyle="#FFFFFF";
     ctx.fill();
 
-    img = document.getElementById("logohtml");
-    ctx.drawImage(img,canvas.width/2 - 150, canvas.height/2 - 220, 300, 350);
-
     ctx.font="15px Verdana";
     text = parseInt(porcentload*100)+"%";
     ctx.textAlign="center";
